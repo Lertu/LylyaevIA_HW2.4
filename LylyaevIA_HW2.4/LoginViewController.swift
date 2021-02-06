@@ -12,31 +12,29 @@ class LoginViewController: UIViewController {
     @IBOutlet var loginTextField: UITextField!
     @IBOutlet var passwordTextField: UITextField!
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let welcomeVC = segue.destination as? WelcomeViewController else {
+            return
+        }
+        welcomeVC.userName = loginTextField.text
+    }
+    
     @IBAction func logInButtonPressed(){
         authorization()
     }
     
     @IBAction func forgotNameButtonPressed() {
         showAlert(with: "Oops!", and: "Your name is User 😉")
-        return
     }
     
     @IBAction func forgotPasswordButtonPressed() {
         showAlert(with: "Oops!", and: "Your password is Password 😉")
-        return
     }
     
     @IBAction func unwind (segue: UIStoryboardSegue){
         loginTextField.text = ""
         passwordTextField.text = ""
         
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let welcomeVC = segue.destination as? WelcomeViewController else {
-            return
-        }
-        welcomeVC.userName = loginTextField.text
     }
     
     private func authorization() -> Bool {
