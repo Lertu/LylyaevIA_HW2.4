@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4AA7ED4425CAE6A000EB7E19 /* LylyaevIA_HW2.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LylyaevIA_HW2.3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA7ED4425CAE6A000EB7E19 /* LylyaevIA_HW2.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LylyaevIA_HW2.4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA7ED4725CAE6A000EB7E19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AA7ED4925CAE6A000EB7E19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4AA7ED4E25CAE6A000EB7E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		4AA7ED3B25CAE6A000EB7E19 = {
 			isa = PBXGroup;
 			children = (
-				4AA7ED4625CAE6A000EB7E19 /* LylyaevIA_HW2.3 */,
+				4AA7ED4625CAE6A000EB7E19 /* LylyaevIA_HW2.4 */,
 				4AA7ED4525CAE6A000EB7E19 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		4AA7ED4525CAE6A000EB7E19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4AA7ED4425CAE6A000EB7E19 /* LylyaevIA_HW2.3.app */,
+				4AA7ED4425CAE6A000EB7E19 /* LylyaevIA_HW2.4.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4AA7ED4625CAE6A000EB7E19 /* LylyaevIA_HW2.3 */ = {
+		4AA7ED4625CAE6A000EB7E19 /* LylyaevIA_HW2.4 */ = {
 			isa = PBXGroup;
 			children = (
 				4AA7ED4725CAE6A000EB7E19 /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				4AA7ED5225CAE6A400EB7E19 /* LaunchScreen.storyboard */,
 				4AA7ED5525CAE6A400EB7E19 /* Info.plist */,
 			);
-			path = LylyaevIA_HW2.3;
+			path = LylyaevIA_HW2.4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4AA7ED4325CAE6A000EB7E19 /* LylyaevIA_HW2.3 */ = {
+		4AA7ED4325CAE6A000EB7E19 /* LylyaevIA_HW2.4 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AA7ED5825CAE6A400EB7E19 /* Build configuration list for PBXNativeTarget "LylyaevIA_HW2.3" */;
+			buildConfigurationList = 4AA7ED5825CAE6A400EB7E19 /* Build configuration list for PBXNativeTarget "LylyaevIA_HW2.4" */;
 			buildPhases = (
 				4AA7ED4025CAE6A000EB7E19 /* Sources */,
 				4AA7ED4125CAE6A000EB7E19 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = LylyaevIA_HW2.3;
+			name = LylyaevIA_HW2.4;
 			productName = LylyaevIA_HW2.3;
-			productReference = 4AA7ED4425CAE6A000EB7E19 /* LylyaevIA_HW2.3.app */;
+			productReference = 4AA7ED4425CAE6A000EB7E19 /* LylyaevIA_HW2.4.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4AA7ED3F25CAE6A000EB7E19 /* Build configuration list for PBXProject "LylyaevIA_HW2.3" */;
+			buildConfigurationList = 4AA7ED3F25CAE6A000EB7E19 /* Build configuration list for PBXProject "LylyaevIA_HW2.4" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4AA7ED4325CAE6A000EB7E19 /* LylyaevIA_HW2.3 */,
+				4AA7ED4325CAE6A000EB7E19 /* LylyaevIA_HW2.4 */,
 			);
 		};
 /* End PBXProject section */
@@ -324,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4AA7ED3F25CAE6A000EB7E19 /* Build configuration list for PBXProject "LylyaevIA_HW2.3" */ = {
+		4AA7ED3F25CAE6A000EB7E19 /* Build configuration list for PBXProject "LylyaevIA_HW2.4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AA7ED5625CAE6A400EB7E19 /* Debug */,
@@ -333,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AA7ED5825CAE6A400EB7E19 /* Build configuration list for PBXNativeTarget "LylyaevIA_HW2.3" */ = {
+		4AA7ED5825CAE6A400EB7E19 /* Build configuration list for PBXNativeTarget "LylyaevIA_HW2.4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AA7ED5925CAE6A400EB7E19 /* Debug */,
